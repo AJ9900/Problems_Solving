@@ -9,8 +9,6 @@ class Codechef
 		// your code goes here
 		Scanner sc = new Scanner(System.in);
 		int S = sc.nextInt();
-		
-		
 		System.out.println(10-S);
 		
 		
