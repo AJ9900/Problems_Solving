@@ -55,7 +55,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T14:50:12.480Z  
+**Submitted:** 2026-09-02T15:04:05.482Z  
 
 ```java
 import java.util.*;
@@ -67,7 +67,13 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-		int[] A = {1,2,3,4}
+		Scanner sc = new Scanner(System.in);
+		int S = sc.nextInt();
+		
+		
+		System.out.println(10-S);
+		
+		
 
 	}
 }
