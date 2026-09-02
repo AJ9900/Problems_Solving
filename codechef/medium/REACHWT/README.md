@@ -52,7 +52,7 @@ Output
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-02T15:37:12.499Z  
+**Submitted:** 2026-09-02T15:50:12.531Z  
 
 ```java
 import java.util.*;
@@ -64,7 +64,18 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		// your code goes here
-
+		Scanner sc = new Scanner(System.in);
+		
+		int T = sc.nextInt();
+	      int N=0, N1,N2;
+	      if( T="1";
+	      }
+	      else if (T=2){
+	          int N2 =30;
+	      }
+	      else{
+	          N =N1+N2;
+	      }
 	}
 }
 
