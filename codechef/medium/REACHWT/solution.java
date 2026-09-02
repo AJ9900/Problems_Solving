@@ -10,16 +10,16 @@ class Codechef
 		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
-	      int N=0, N1=0,N2=0;
-	      if( T==1){
-	          N1 =20;
-	      }
-	      else if (T==2){
-	          N2 =30;
-	      }
-	      else{
-	          N = N1+N2;
-	      }
-	    System.out.println(N);
+		while(T-->0){
+		    
+		 int N = sc.nextInt();
+		 if (N%2==0){
+		     
+		     System.out.println(N*15);
+		 } else{
+		     System.out.println(N*15+5);
+		 }
+		}
+	    	    
 	}
 }
