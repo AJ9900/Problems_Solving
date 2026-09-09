@@ -9,10 +9,10 @@ class Codechef
 	Scanner sc = new Scanner(System.in);
 	 int N = sc.nextInt();
 
-     String A = sc.next();
-     String B = sc.next();
+     String A[N] = sc.next();
+     String B[N] = sc.next();
      
-     for(int i=0;i<N;i++)
+     for(int i=0;i<A[N];i++)
      {
          
      if(A.charAt(i) == B.charAt(i)){
