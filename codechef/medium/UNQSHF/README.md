@@ -74,50 +74,43 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:10:10.265Z  
+**Submitted:** 2026-09-09T16:21:18.041Z  
 
 ```java
 import java.util.*;
 
-class Codechef
-{
-    public static void main(String[] args) throws java.lang.Exception
-    {
+class Main {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int T = sc.nextInt();
 
-        while(T-- > 0)
-        {
+        while (T-- > 0) {
             int N = sc.nextInt();
-
             String A = sc.next();
             String B = sc.next();
 
-            int aC = 0, bC = 0;
+            int countA = 0;
+            int countB = 0;
 
-            for(int i = 0; i < N; i++)
-            {
-                if(A.charAt(i) == 'a')
-                {
-                    aC++;
+            for (int i = 0; i < N; i++) {
+                if (A.charAt(i) == 'a') {
+                    countA++;
                 }
 
-                if(B.charAt(i) == 'a')
-                {
-                    bC++;
+                if (B.charAt(i) == 'b') {
+                    countB++;
                 }
             }
 
-            if(aC == bC)
-            {
+            if (countA == countB) {
+                System.out.println("YES");
+            } else {
                 System.out.println("NO");
             }
-            else
-            {
-                System.out.println("YES");
-            }
         }
+
+        sc.close();
     }
 }
 ```
