@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:26:22.508Z  
+**Submitted:** 2026-09-09T15:45:06.295Z  
 
 ```java
 import java.util.*;
@@ -87,24 +87,22 @@ class Codechef
 	{
 	Scanner sc = new Scanner(System.in);
 	 int N = sc.nextInt();
-	String []A = String [N];
-	String []B = String [N];
-	
-	for(int i=0; i<N; i++){
-	    
-	    A[i] = sc.next();
-	    B[i] = sc.next();
-	}
-	
-	
-	for(int i=0; i<N; i++){
-	    
-	   
-	}
-	
-	}
-}
 
+     String A = sc.next();
+     String B = sc.next();
+     
+     for(int i=0;i<N;i++)
+     {
+         
+     if(A.charAt(i) == B.charAt(i)){
+         System.out.println("NO");
+     }else{
+         System.out.println("YES");
+     }
+     } 
+     
+}
+}
 ```
 
 ---
