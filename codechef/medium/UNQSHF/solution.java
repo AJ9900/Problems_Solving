@@ -8,16 +8,19 @@ class Codechef
 	{
 	Scanner sc = new Scanner(System.in);
 	 int N = sc.nextInt();
-	String []A = new A[N];
-	String []B = new B[N];
+	String []A = String [N];
+	String []B = String [N];
 	
 	for(int i=0; i<N; i++){
 	    
-	    A[i] = sc.nextString();
+	    A[i] = sc.next();
+	    B[i] = sc.next();
 	}
+	
+	
 	for(int i=0; i<N; i++){
 	    
-	    B[i] = sc.nextString();
+	   
 	}
 	
 	}
