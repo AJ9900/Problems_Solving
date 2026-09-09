@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:14:15.499Z  
+**Submitted:** 2026-09-09T15:24:07.496Z  
 
 ```java
 import java.util.*;
@@ -86,9 +86,18 @@ class Codechef
 	public static void main (String[] args) throws java.lang.Exception
 	{
 	Scanner sc = new Scanner(System.in);
+	 int N = sc.nextInt();
+	String []A = new A[N];
+	String []B = new B[N];
 	
-	int A = sc.nextString();
-	int B = sc.nextString();
+	for(int i=0; i<N; i++){
+	    
+	    A[i] = sc.nextString();
+	}
+	for(int i=0; i<N; i++){
+	    
+	    B[i] = sc.nextString();
+	}
 	
 	}
 }
