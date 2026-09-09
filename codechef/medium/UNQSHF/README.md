@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:08:56.771Z  
+**Submitted:** 2026-09-09T15:14:05.497Z  
 
 ```java
 import java.util.*;
@@ -85,6 +85,10 @@ class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+	Scanner sc = new Scanner(System.in);
+	
+	int A = sc.nextString();
+	int B = sc.nextString();
 	
 	}
 }
