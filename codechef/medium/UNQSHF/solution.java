@@ -24,7 +24,7 @@ class Codechef
                     aC++;
                 }
 
-                if(B.charAt(i) == 'a')
+                if(B.charAt(i) == 'b')
                 {
                     bC++;
                 }
