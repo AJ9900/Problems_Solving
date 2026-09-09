@@ -74,51 +74,40 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:08:17.508Z  
+**Submitted:** 2026-09-09T16:06:59.516Z  
 
 ```java
 import java.util.*;
+import java.lang.*;
+import java.io.*;
 
 class Codechef
 {
-    public static void main(String[] args) throws java.lang.Exception
-    {
-        Scanner sc = new Scanner(System.in);
+	public static void main (String[] args) throws java.lang.Exception
+	{
+	Scanner sc = new Scanner(System.in);
+	 int N = sc.nextInt();
 
-        int T = sc.nextInt();
-
-        // while(T-- > 0)
-        // {
-            int N = sc.nextInt();
-
-            String A = sc.next();
-            String B = sc.next();
-
-            int aC = 0, bC = 0;
-
-            for(int i = 0; i < N; i++)
-            {
-                if(A.charAt(i) == 'a')
-                {
-                    aC++;
-                }
-
-                if(B.charAt(i) == 'a')
-                {
-                    bC++;
-                }
-            }
-
-            if(aC == bC)
-            {
-                System.out.println("NO");
-            }
-            else
-            {
-                System.out.println("YES");
-            }
-        // }
-    }
+     String A = sc.next();
+     String B = sc.next();
+     
+     int aC = 0,bC =0;
+     for(int i=0;i<N;i++)
+     {
+         if(A.charAt(i)=='a'){
+             aC++;
+         }
+         if(B.charAt(i)=='a'){
+             bC++;
+         }
+     } 
+     if(aC == bC){
+         System.out.println("NO");
+     }else{
+         System.out.println("YES");
+     }
+     
+}
 }
 ```
 
