@@ -9,18 +9,24 @@ class Codechef
 	Scanner sc = new Scanner(System.in);
 	 int N = sc.nextInt();
 
-     String A[N] = sc.next();
-     String B[N] = sc.next();
+     String A = sc.next();
+     String B = sc.next();
      
-     for(int i=0;i<A[N];i++)
+     int aC = 0,bC =0;
+     for(int i=0;i<N;i++)
      {
-         
-     if(A.charAt(i) == B.charAt(i)){
+         if(A.charAt(i)=='a'){
+             aC++;
+         }
+         if(B.charAt(i)=='a'){
+             bC++;
+         }
+     } 
+     if(aC == bC){
          System.out.println("NO");
      }else{
          System.out.println("YES");
      }
-     } 
      
 }
 }
