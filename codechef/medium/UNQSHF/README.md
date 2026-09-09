@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T15:24:07.496Z  
+**Submitted:** 2026-09-09T15:26:22.508Z  
 
 ```java
 import java.util.*;
@@ -87,16 +87,19 @@ class Codechef
 	{
 	Scanner sc = new Scanner(System.in);
 	 int N = sc.nextInt();
-	String []A = new A[N];
-	String []B = new B[N];
+	String []A = String [N];
+	String []B = String [N];
 	
 	for(int i=0; i<N; i++){
 	    
-	    A[i] = sc.nextString();
+	    A[i] = sc.next();
+	    B[i] = sc.next();
 	}
+	
+	
 	for(int i=0; i<N; i++){
 	    
-	    B[i] = sc.nextString();
+	   
 	}
 	
 	}
