@@ -74,7 +74,7 @@ So, no solution exists.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-09T16:11:38.248Z  
+**Submitted:** 2026-09-09T16:10:10.265Z  
 
 ```java
 import java.util.*;
@@ -103,7 +103,7 @@ class Codechef
                     aC++;
                 }
 
-                if(B.charAt(i) == 'b')
+                if(B.charAt(i) == 'a')
                 {
                     bC++;
                 }
