@@ -59,7 +59,7 @@ The total number of cookies is $7$, which is not dividable fairly between Alice 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-16T15:46:28.636Z  
+**Submitted:** 2026-09-16T15:49:27.833Z  
 
 ```java
 import java.util.*;
@@ -78,7 +78,7 @@ class Codechef
        if(A>B){
            if((A+B)%2==0){
               
-               System.out.println(((A+B)/2)/2);
+               System.out.println();
            } else{
                System.out.println("-1");
            }
