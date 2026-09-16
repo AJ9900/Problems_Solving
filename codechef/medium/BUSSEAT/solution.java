@@ -16,7 +16,7 @@ class Codechef
             int K = sc.nextInt();
 
             if (K > N)
-                System.out.println(2*(K - N));
+                System.out.println(K - N);
             else
                 System.out.println(0);
         }
