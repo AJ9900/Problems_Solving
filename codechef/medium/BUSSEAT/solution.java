@@ -4,21 +4,10 @@ import java.io.*;
 
 class Codechef
 {
-    public static void main (String[] args) throws java.lang.Exception
-    {
-        Scanner sc = new Scanner(System.in);
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		// your code goes here
+		
 
-        int T = sc.nextInt();
-
-        while (T-- > 0)
-        {
-            int N = sc.nextInt();
-            int K = sc.nextInt();
-
-            if (K > N)
-                System.out.println(K - N);
-            else
-                System.out.println(0);
-        }
-    }
+	}
 }
