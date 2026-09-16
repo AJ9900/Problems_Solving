@@ -12,9 +12,9 @@ class Codechef
        int A = sc.nextInt();
        int B = sc.nextInt();
        if(A>B){
-           if((A-B)%2==0){
+           if((A+B)%2==0){
               
-               System.out.println((A-B)/2);
+               System.out.println(((A+B)%2)%2);
            } else{
                System.out.println("-1");
            }
