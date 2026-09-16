@@ -9,15 +9,15 @@ class Codechef
 		// your code goes here
        Scanner sc = new Scanner(System.in);
        
-       int A = sc.nextInt();
-       int B = sc.nextInt();
+       int A = sc.nextINT();
+       int B = sc.nextINT();
        if(A>B){
            if((A+B)%2==0){
-              B = B+(A-B);
+              
                System.out.println(B);
+                  	}
            } else{
                System.out.println("-1");
            }
-                  	}
        }
 }
