@@ -8,9 +8,9 @@ class Codechef
 	{
 	Scanner sc = new Scanner(System.in);
 	
-	String S = sc.nextLine().toLowercase();
+	String S = sc.nextLine().toLowerCase();
     
-    if (S.charAt(1)==S.charAt(3) && S.charAt(2)==S.charAt(4) ){
+    if (S.charAt(0)==S.charAt(2) && S.charAt(1)==S.charAt(3) ){
         System.out.println("YES");
     }else{
         System.out.println("NO");
