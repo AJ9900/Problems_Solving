@@ -48,7 +48,6 @@ class Codechef
 				continue;
 			}
 
-			// Suffix minimum of prefix sums
 			suffix[N-1] = prefix[N-1];
 
 			for(int i = N-2; i >= 0; i--)
@@ -57,11 +56,9 @@ class Codechef
 			}
 
 			boolean possible = false;
-
-			// Try deleting one element
 			for(int i = 0; i < N; i++)
 			{
-				// Sum before A[i] must already be >= 0
+			
 				if(i > 0 && prefix[i-1] < 0)
 				{
 					break;
@@ -78,7 +75,6 @@ class Codechef
 					minAfter = suffix[i+1];
 				}
 
-				// After deleting A[i]
 				if(minAfter - A[i] >= 0)
 				{
 					possible = true;
