@@ -63,7 +63,7 @@ The second character of `ever` is `v`, while its fourth character is `r`. These 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:08:54.289Z  
+**Submitted:** 2026-09-23T16:12:43.492Z  
 
 ```java
 import java.util.*;
@@ -76,9 +76,9 @@ class Codechef
 	{
 	Scanner sc = new Scanner(System.in);
 	
-	String S = sc.nextLine().toLowercase();
+	String S = sc.nextLine().toLowerCase();
     
-    if (S.charAt(1)==S.charAt(3) && S.charAt(2)==S.charAt(4) ){
+    if (S.charAt(0)==S.charAt(2) && S.charAt(1)==S.charAt(3) ){
         System.out.println("YES");
     }else{
         System.out.println("NO");
