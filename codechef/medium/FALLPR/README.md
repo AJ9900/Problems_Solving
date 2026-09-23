@@ -77,21 +77,13 @@ Thus, it's impossible to make the array  *good*  after a single deletion.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-23T16:40:53.326Z  
+**Submitted:** 2026-09-23T16:41:21.393Z  
 
 ```java
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-		// your code goes here
-
-	}
-}
 
 ```
 
