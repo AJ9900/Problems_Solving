@@ -60,7 +60,7 @@ Your rival team is $1$st, and you are $2$nd, no teams between you.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T16:09:32.224Z  
+**Submitted:** 2026-10-21T16:14:04.468Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
@@ -69,13 +69,12 @@ using namespace std;
 int main() {
 	int X,Y;
 	cin>> X>>Y;
-	int count = 0;
+	int j = 0;
+	if(X=Y){
+	    j = 0;
+	} else{
 
-// 	for( int i=X;i<=Y;i++){
-// 	   count++;
-// 	   count ;
-// 	}
-	int j = Y-X-1;
+
 	cout<<j<<endl;
 
 }
