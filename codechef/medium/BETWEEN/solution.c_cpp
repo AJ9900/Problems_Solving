@@ -6,10 +6,11 @@ int main() {
 	cin>> X>>Y;
 	int count = 0;
 
-	for( int i=X;i<=Y;i++){
-	   count++;
-	   count ;
-	}
-	cout<<count-2<<endl;
+// 	for( int i=X;i<=Y;i++){
+// 	   count++;
+// 	   count ;
+// 	}
+	int j = Y-X-1;
+	cout<<j<<endl;
 
 }
