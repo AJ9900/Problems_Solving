@@ -5,9 +5,11 @@ int main() {
 	int X,Y;
 	cin>> X>>Y;
 	int count = 0;
-	for( int i=X+1;i<Y;i++){
-	    count ++;
+
+	for( int i=X;i<=Y;i++){
+	   count++;
+	   count ;
 	}
-	cout<<count<<endl;
+	cout<<count-2<<endl;
 
 }
