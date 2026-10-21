@@ -57,7 +57,7 @@ Test case $4$: Since the final score is $0$, all questions can be skipped.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-21T16:19:27.489Z  
+**Submitted:** 2026-10-21T16:25:38.491Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
