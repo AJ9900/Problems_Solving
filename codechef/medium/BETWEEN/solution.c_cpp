@@ -2,14 +2,10 @@
 using namespace std;
 
 int main() {
-	int X,Y;
-	cin>> X>>Y;
-	int j = 0;
-	if(X=Y){
-	    j = 0;
-	} else{
+    int X, Y;
+    cin >> X >> Y;
 
+    cout << abs(X - Y) - 1 << endl;
 
-	cout<<j<<endl;
-
+    return 0;
 }
