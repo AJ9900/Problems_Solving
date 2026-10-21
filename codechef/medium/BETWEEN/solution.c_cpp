@@ -1,0 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int X,Y;
+	cin>> X>>Y;
+	int count = 0;
+	for( int i=X+1;i<Y;i++){
+	    count ++;
+	}
+	cout<<count<<endl;
+
+}
