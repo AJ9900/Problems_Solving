@@ -75,23 +75,23 @@ The password is `WEC`.
 
 ## Solution
 
-**Language:** Java  
+**Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:16:26.894Z  
+**Submitted:** 2026-10-28T15:17:21.770Z  
 
-```java
-import java.util.*;
-import java.lang.*;
-import java.io.*;
+```c_cpp
 
-class Codechef
-{
-	public static void main (String[] args) throws java.lang.Exception
-	{
-	   
+#include <bits/stdc++.h>
+using namespace std;
 
-	}
+int main() {
+    string s;
+    cin >> s;
+
+    cout << s[0] << s[2] << s[4];
+
+    return 0;
 }
 
 ```
