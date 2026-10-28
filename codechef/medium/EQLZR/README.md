@@ -68,16 +68,55 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:20:56.874Z  
+**Submitted:** 2026-10-28T15:21:31.433Z  
 
 ```c_cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int N;
+        cin >> N;
+
+        vector<int> A(N);
+        for (int i = 0; i < N; i++)
+            cin >> A[i];
+
+        int ans = 0;
+
+        for (int i = 0; i < N - 1; i++) {
+            if (A[i] == A[i + 1])
+                ans++;
+        }
+
+        int best = 0, curr = 0;
+
+        for (int i = 0; i < N - 1; i++) {
+            int change = 0;
+
+            if (A[i] == A[i + 1] + 1)
+                change++;
+            if (A[i] + 1 == A[i + 1])
+                change++;
+
+            if (A[i] == A[i + 1])
+                change = -1;
+
+            curr = max(0, curr + change);
+            best = max(best, curr);
+        }
+
+        cout << ans + best << endl;
+    }
+
+    return 0;
 }
+
 
 ```
 
