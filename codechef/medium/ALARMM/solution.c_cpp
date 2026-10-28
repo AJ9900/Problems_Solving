@@ -1,7 +1,27 @@
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int N, K;
+        string S;
+        cin >> N >> K >> S;
+
+        int ans = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (S[i] == '1') {
+                ans++;
+                i += K;
+            }
+        }
+
+        cout << ans << endl;
+    }
+
+    return 0;
 }
