@@ -66,15 +66,40 @@ BBBBAAAAABBBBBBB
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:18:37.697Z  
+**Submitted:** 2026-10-28T15:19:09.916Z  
 
 ```c_cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while(T--) {
+        int N;
+        string S;
+        cin >> N >> S;
+
+        int count = 0, ans = 0;
+
+        for(int i = 0; i < N; i++) {
+            if(i == 0 || S[i] == S[i-1])
+                count++;
+            else
+                count = 1;
+
+            if(count == 3) {
+                ans++;
+                count = 0;
+            }
+        }
+
+        cout << ans << endl;
+    }
+
+    return 0;
 }
 
 ```
