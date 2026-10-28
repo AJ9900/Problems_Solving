@@ -70,15 +70,35 @@ Output
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-28T15:19:50.808Z  
+**Submitted:** 2026-10-28T15:20:27.105Z  
 
 ```c_cpp
+
 #include <bits/stdc++.h>
 using namespace std;
 
 int main() {
-	// your code goes here
+    int T;
+    cin >> T;
 
+    while (T--) {
+        int N, K;
+        string S;
+        cin >> N >> K >> S;
+
+        int ans = 0;
+
+        for (int i = 0; i < N; i++) {
+            if (S[i] == '1') {
+                ans++;
+                i += K;
+            }
+        }
+
+        cout << ans << endl;
+    }
+
+    return 0;
 }
 
 ```
